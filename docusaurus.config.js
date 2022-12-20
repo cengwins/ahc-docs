@@ -76,12 +76,12 @@ const config = {
                 to: '/docs/category/getting-started',
               },
               {
-                label: 'Project Configuration',
-                to: '/docs/category/project-configuration',
+                label: 'Editing ahc.yaml',
+                to: '/docs/project-configuration/ahc-yaml',
               },
               {
-                label: 'Running Experiments',
-                to: '/docs/category/running-experiments',
+                label: 'Topology Management',
+                to: '/docs/project-configuration/topology-management',
               },
             ],
           },
@@ -93,8 +93,20 @@ const config = {
                 to: 'https://ahc.ceng.metu.edu.tr/',
               },
               {
-                label: 'GitHub',
+                label: 'AHC Library',
                 href: 'https://github.com/cengwins/ahc',
+              },
+              {
+                label: 'AHC Environment',
+                href: 'https://github.com/cengwins/ahc-environment',
+              },
+              {
+                label: 'AHC Documentation',
+                href: 'https://github.com/cengwins/ahc-environment',
+              },
+              {
+                label: 'Cengwins GitHub',
+                href: 'https://github.com/cengwins',
               },
             ],
           },
