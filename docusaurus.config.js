@@ -73,15 +73,15 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/category/getting-started',
+                to: '/docs/category/getting-started',
               },
               {
                 label: 'Editing ahc.yaml',
-                to: '/project-configuration/ahc-yaml',
+                to: '/docs/project-configuration/ahc-yaml',
               },
               {
                 label: 'Topology Management',
-                to: '/project-configuration/topology-management',
+                to: '/docs/project-configuration/topology-management',
               },
             ],
           },
