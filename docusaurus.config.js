@@ -9,7 +9,7 @@ const config = {
   title: 'AHC',
   tagline: 'AHC Experimentation Environment',
   url: 'https://github.com/cengwins/ahc',
-  baseUrl: '/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -59,7 +59,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/cengwins',
             label: 'GitHub',
             position: 'left',
           },
@@ -73,15 +73,15 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/category/getting-started',
+                to: '/category/getting-started',
               },
               {
                 label: 'Editing ahc.yaml',
-                to: '/docs/project-configuration/ahc-yaml',
+                to: '/project-configuration/ahc-yaml',
               },
               {
                 label: 'Topology Management',
-                to: '/docs/project-configuration/topology-management',
+                to: '/project-configuration/topology-management',
               },
             ],
           },
