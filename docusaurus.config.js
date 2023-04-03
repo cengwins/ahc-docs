@@ -9,7 +9,7 @@ const config = {
   title: 'AHC',
   tagline: 'AHC Experimentation Environment',
   url: 'https://github.com/cengwins/ahc',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
