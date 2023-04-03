@@ -11,4 +11,4 @@ RUN npm ci
 COPY . .
 EXPOSE 3000
 
-CMD /bin/sh -c "npm run start"
+CMD /bin/sh -c "npm run start --host 0.0.0.0"
