@@ -5,7 +5,7 @@ RUN apk add --no-cache bash
 RUN mkdir -p /usr/local/app
 WORKDIR /usr/local/app
 
-COPY package.json package-lock.json /usr/local/app
+COPY package.json package-lock.json /usr/local/app/
 RUN npm ci
 
 COPY . .
